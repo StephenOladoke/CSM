@@ -69,15 +69,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="blog.html" class="nav-item nav-link">Blogs</a>
-                <!-- <a href="product.html" class="nav-item nav-link">Product</a> -->
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="service.html" class="nav-item nav-link">Consulting Services</a>
+                <!-- <a href="blog.html" class="dropdown-item">Blogs</a> -->
+                <!-- <a href="blog.html" class="nav-item nav-link">Blogs</a> -->
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
-                        <!-- <a href="blog.html" class="dropdown-item">Blog Grid</a> -->
                         <!-- <a href="detail.html" class="dropdown-item">Blog Detail</a> -->
                         <!-- <a href="feature.html" class="dropdown-item">Features</a> -->
                         <a href="team.html" class="dropdown-item">The Team</a>
@@ -121,7 +120,7 @@
                         <h6 class="text-primary text-uppercase">About Us</h6>
                         <h1 class="display-5">Meet Our Consultants</h1>
                     </div>
-                    <p class="mb-4">Community Services of Minnesota Inc. is a dedicated agency committed to providing exceptional auditing, consulting, coaching, and staff development services to providers. <br> <br> Our team of experienced professionals offer combined designated coordinator and manager contracted consulting services, providing routine oversight, evaluation, and support for program paperwork, ensuring quality and program improvement. <br> <br> We also offer initial and ongoing operation and review of paperwork for clients, ensuring that your organization is always compliant with policies and procedures as it pertains to the clients. Our reliable and fast services make us your trusted partner in achieving your goals and providing the best services to your clients.</p>
+                    <p class="mb-4">Community Services of Minnesota Inc. is a dedicated agency committed to providing exceptional auditing, consulting, coaching, and staff development services to agencies. <br> <br> Our team of experienced professionals offer combined designated coordinator and manager contracted consulting services, providing routine oversight, evaluation, and support for program paperwork, ensuring quality and program improvement. <br> <br> We also offer initial and ongoing operation and review of paperwork for clients, ensuring that your organization is always compliant with policies and procedures as it pertains to the clients. Our reliable and fast services make us your trusted partner in achieving your goals and providing the best services to your clients.</p>
                     <div class="row gx-5 gy-4">
                         <!-- <div class="col-sm-6">
                             <i class="fa fa-seedling display-1 text-secondary"></i>
@@ -195,7 +194,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="text-white">Happy Clients</h5>
-                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">500</h1>
+                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up">100</h1>
                         </div>
                     </div>
                 </div>
@@ -212,7 +211,7 @@
                 <div class="col-md-6">
                     <div class="bg-primary bg-vegetable d-flex flex-column justify-content-center p-5" style="height: 300px;">
                         <h3 class="text-white mb-3">Mission</h3>
-                        <p class="text-white">To deliver efficient and dependable consulting, auditing, coaching and staff development services to providers, while ensuring quality and compliance with policies and procedures, to help them improve their programs and better serve their clients.</p>
+                        <p class="text-white">To deliver efficient and dependable consulting, auditing, coaching and staff development services to agencies, while ensuring quality and compliance with policies and procedures, to help them improve their programs and better serve their clients.</p>
 
                         <!-- <p class="text-white">Our guidance and support empower many healthcare companies to better their business processes. We integrate our expertise to help our clients improve their efficiency, competence, and work quality.</p> -->
                         <!-- <a class="text-white fw-bold" href="">Read More<i class="bi bi-arrow-right ms-2"></i></a> -->
@@ -221,7 +220,7 @@
                 <div class="col-md-6">
                     <div class="bg-secondary bg-fruit d-flex flex-column justify-content-center p-5" style="height: 300px;">
                         <h3 class="text-white mb-3">Vision</h3>
-                        <p class="text-white">To be the leading provider of comprehensive and reliable program oversight and support services, empowering providers to deliver outstanding services and care to their clients.</p>
+                        <p class="text-white">To be the leading Agencies of comprehensive and reliable program oversight and support services, empowering agencies to deliver outstanding services and care to their clients.</p>
                         <!-- <p class="text-white">Sustainable growth is what we strive to have our clients achieve. Thus, whenever we offer our clients solutions, we assure them that these strategies will involve long-term effects. Go ahead and experience our support.</p> -->
                         <!-- <a class="text-white fw-bold" href="">Read More<i class="bi bi-arrow-right ms-2"></i></a> -->
                     </div>
@@ -330,19 +329,19 @@
                 <div class="col-lg-7">
                     <div class="bg-primary h-100 p-5"> 
                         <!-- style="position:relative !important; margin-top: -400px; z-index: 1;"  -->
-                        <form>
+                        <form method="post" action="https://formspree.io/f/mwkjooyl">
                             <div class="row g-3">
                                 <div class="col-6">
-                                    <input type="text" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;">
+                                    <input type="text" name="name" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;">
                                 </div>
                                 <div class="col-6">
-                                    <input type="email" class="form-control bg-light border-0 px-4" placeholder="Your Email" style="height: 55px;">
+                                    <input type="email" name="email" class="form-control bg-light border-0 px-4" placeholder="Your Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="form-control bg-light border-0 px-4" placeholder="Subject" style="height: 55px;">
+                                    <input type="text" name="subject" class="form-control bg-light border-0 px-4" placeholder="Subject" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0 px-4 py-3" rows="2" placeholder="Message"></textarea>
+                                    <textarea class="form-control bg-light border-0 px-4 py-3" name="message" rows="2" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-secondary w-100 py-3" type="submit">Send Message</button>
@@ -369,7 +368,7 @@
                             </div>
                             <div class="ps-3">
                                 <h5 class="text-white">Email Us</h5>
-                                <span class="text-white">info@csm.com</span>
+                                <span class="text-white">info@mncsinc.net</span>
                             </div>
                         </div>
                         <div class="d-flex">
@@ -404,7 +403,7 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-white me-2"></i>
-                                <p class="text-white mb-0">info@csm.com</p>
+                                <p class="text-white mb-0">info@mncsinc.net</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-white me-2"></i>
@@ -420,23 +419,23 @@
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                             <h4 class="text-white mb-4">Quick Links</h4>
                             <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Home</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>About Us</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Our Services</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Meet The Team</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Latest Blog</a>
-                                <a class="text-white" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
+                                <a class="text-white mb-2" href="index.html"><i class="bi bi-arrow-right text-white me-2"></i>Home</a>
+                                <a class="text-white mb-2" href="about.html"><i class="bi bi-arrow-right text-white me-2"></i>About Us</a>
+                                <a class="text-white mb-2" href="service.html"><i class="bi bi-arrow-right text-white me-2"></i>Our Services</a>
+                                <!-- <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Meet The Team</a> -->
+                                <a class="text-white mb-2" href="blog.html"><i class="bi bi-arrow-right text-white me-2"></i>Latest Blog</a>
+                                <a class="text-white" href="contact.html"><i class="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                             <h4 class="text-white mb-4">Popular Links</h4>
                             <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Home</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>About Us</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Our Services</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Meet The Team</a>
-                                <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Latest Blog</a>
-                                <a class="text-white" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
+                                <a class="text-white mb-2" href="index.html"><i class="bi bi-arrow-right text-white me-2"></i>Home</a>
+                                <a class="text-white mb-2" href="about.html"><i class="bi bi-arrow-right text-white me-2"></i>About Us</a>
+                                <a class="text-white mb-2" href="service.html"><i class="bi bi-arrow-right text-white me-2"></i>Our Services</a>
+                                <!-- <a class="text-white mb-2" href="#"><i class="bi bi-arrow-right text-white me-2"></i>Meet The Team</a> -->
+                                <a class="text-white mb-2" href="blog.html"><i class="bi bi-arrow-right text-white me-2"></i>Latest Blog</a>
+                                <a class="text-white" href="contact.html"><i class="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
                             </div>
                         </div>
                     </div>
